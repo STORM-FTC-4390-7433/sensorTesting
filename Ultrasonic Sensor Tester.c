@@ -3,7 +3,8 @@
 
 task main()
 {
-
-
-
+	while(true){
+		int distance_in_cm = 20;   // Create variable 'distance_in_cm' and initialize it to 20(cm).
+  		writeDebugStreamLine("The distance in cm is: %d", SensorValue[sonarSensor]);
+	}
 }
